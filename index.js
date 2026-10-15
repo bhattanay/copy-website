@@ -47,4 +47,10 @@ function carouselBack() {
         curr--;
     }
     document.getElementById("caroImg").setAttribute("src", imgs[curr]);
+}
+
+function coursesReloc(i) {
+    if (i === 1) {
+        document.getElementByClassName()
     }
+}

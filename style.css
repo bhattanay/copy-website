@@ -37,21 +37,6 @@ body {
     cursor: pointer;
 }
 
-#hambut {
-    scale: 130%;
-    color: white;
-    position: fixed;
-    top: 10px;
-    left: 10px;
-    border: white solid 1px;
-    padding-left: 4px;
-    padding-right: 4px;
-    cursor: pointer;
-    p {
-        margin: 0;
-    }
-}
-
 .csa {
     color: white;
     text-underline-color: white;
@@ -127,3 +112,83 @@ body {
         display: flex;
     }
 }
+
+.mainContent {
+    display: flex;
+    flex-direction: column;
+    padding-left: 14%;
+}
+
+.sideBar {
+    height: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    background-color: gold;
+    padding-right: 16px;
+}
+
+#hambut {
+    scale: 130%;
+    color: black;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    border: black solid 1px;
+    padding-left: 4px;
+    padding-right: 4px;
+    cursor: pointer;
+    p {
+        margin: 0;
+    }
+}
+
+.title{
+    color: black;
+    text-align: center;
+    text-size-adjust: 100%;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.title:hover {
+    background-color: beige;
+}
+.text {
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    scale: 85%;
+    cursor: pointer;
+}
+
+.programButton {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.extraButton {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.collegeButton {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.freeButton:hover {
+    background-color: beige;
+}
+
+.programButton:hover {
+    background-color: beige;
+}
+
+.extraButton:hover {
+    background-color: beige;
+}
+
+.collegeButton:hover {
+    background-color: beige;
+}
+
