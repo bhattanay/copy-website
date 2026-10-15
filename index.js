@@ -49,8 +49,25 @@ function carouselBack() {
     document.getElementById("caroImg").setAttribute("src", imgs[curr]);
 }
 
-function coursesReloc(i) {
-    if (i === 1) {
-        document.getElementByClassName()
+function courseReloc() {
+    if (document.getElementById("dropDownAPC").style.display === "none") {
+
+        document.getElementById("dropDownAPC").style.display = "flex";
+        document.getElementById("dropDownAPA").style.display = "flex";
+        document.getElementById("dropDownDSA").style.display = "flex";
+        document.getElementById("dropDownCAP").style.display = "flex";
+        document.getElementById("dropDownDIS").style.display = "flex";
+
+    } else {
+        document.getElementById("dropDownAPC").style.display = "none";
+        document.getElementById("dropDownAPA").style.display = "none";
+        document.getElementById("dropDownDSA").style.display = "none";
+        document.getElementById("dropDownCAP").style.display = "none";
+        document.getElementById("dropDownDIS").style.display = "none";
     }
 }
+
+function reloc(id) {
+    window.location.href = id
+}
+

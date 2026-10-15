@@ -116,16 +116,19 @@ body {
 .mainContent {
     display: flex;
     flex-direction: column;
-    padding-left: 14%;
+    padding-left: 18%;
 }
 
 .sideBar {
-    height: 100%;
-    position: fixed;
+    width: 16%;
+    position: sticky;
+    top: 0;
+    min-width: 320px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     background-color: gold;
-    padding-right: 16px;
+    /*padding-right: 16px;*/
 }
 
 #hambut {
@@ -192,3 +195,54 @@ body {
     background-color: beige;
 }
 
+.dropDown {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+    scale: 120%;
+}
+
+#dropDownAPC {
+    display: none;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+#dropDownAPA {
+    display: none;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+#dropDownDSA {
+    display: none;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+#dropDownCAP {
+    display: none;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+#dropDownDIS {
+    display: none;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.dropDownAPC:hover {
+    background-color: white;
+}
+
+.classes:hover {
+    background-color: white;
+}
+
+.classes {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10%
+}

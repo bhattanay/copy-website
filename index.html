@@ -16,8 +16,17 @@
         </div>
         <div class="text">
             <h3 class="programButton" onclick="courseReloc()">Courses in the Program</h3>
-            <h3 class="extraButton" onclick="extraReloc()">Extracurricular Opportunities</h3>
-            <h3 class="collegeButton" onclick="collegeReloc()"><a href="#collegesTitle">Where our students have gone</a></h3>
+            <div class="dropDown">
+                <p onclick="reloc(cspL)" class="classes" id="dropDownAPC">AP Computer Science Principles</p>
+                <p class="classes" id="dropDownAPA">AP Computer Science A</p>
+                <p id="dropDownDSA" class="classes">Honors Data Structures and Algorithms</p>
+                <p id="dropDownCAP" class="classes">Honors Computer Science Senior Capstone: Web, Data, and AI</p>
+                <p id="dropDownDIS" class="classes">Honors Discrete Math and Cybersecurity</p>
+            </div>
+        </div>
+        <div class="text">
+            <h3 class="extraButton" onclick="extraReloc()"><a style="color: black; text-decoration: none;" href="#Extraref">Extracurricular Opportunities</a></h3>
+            <h3 class="collegeButton" onclick="collegeReloc()"><a style="color: black; text-decoration: none" href="#collegesTitle">Where our students have gone</a></h3>
         </div>
     </div>
 
@@ -50,7 +59,7 @@
 
         <div class="programs">
             <div class="cspimg">
-                <h2 class="csp" onclick="csp()"><u>AP Computer Science Principles</u></h2>
+                <h2 class="csp" id="cspL" onclick="csp()"><u>AP Computer Science Principles</u></h2>
                 <img class="apimg" onclick="cspimg()" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5O3sc1bqUAe1XG8LBYb8_gLjGo7YBRGk4uCpZYdX8fg&s=10">
             </div>
             <p>
@@ -58,30 +67,30 @@
             </p>
 
            <div class="csaimg">
-               <h2 class="csa" onclick="csa()"><u>AP Computer Science A</u></h2>
+               <h2 class="csa" id="csaL" onclick="csa()"><u>AP Computer Science A</u></h2>
                <img class="apimg" onclick="csaimg()" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5O3sc1bqUAe1XG8LBYb8_gLjGo7YBRGk4uCpZYdX8fg&s=10">
            </div>
 
                <p>
                     Sophomores advance to AP Computer Science A, which provides a rigorous introduction to object-oriented programming and software development using the Java programming language. Students design, implement, test, and analyze programs while developing their understanding of data structures, algorithms, abstraction, and problem solving. The course emphasizes writing effective code and applying programming concepts to increasingly complex problems.
                 </p>
-            <h2 class="dsa" onclick="dsa()"><u>Honors Data Structures and Algorithms</u></h2>
+            <h2 class="dsa" id="dsaL" onclick="dsa()"><u>Honors Data Structures and Algorithms</u></h2>
             <p>
                 Juniors take Data Structures & Algorithms, where students build upon their programming foundation and explore more advanced approaches to organizing, processing, and analyzing information. Students study data structures, algorithm design and efficiency, searching and sorting techniques, recursion, and computational problem-solving while applying these concepts through substantial programming projects. The course challenges students to think critically about not only whether a solution works, but also how effectively and efficiently it works.
             </p>
 
-            <h2 class="capstone" onclick="caps()"><u>Honors Computer Science Senior Capstone: Web, Data, and </u></h2>
+            <h2 class="capstone" id="capL" onclick="caps()"><u>Honors Computer Science Senior Capstone: Web, Data, and </u></h2>
             <p>
                 The Senior Capstone provides students with an opportunity to bring together the knowledge and skills developed throughout the four-year program. Students work individually or collaboratively to identify a meaningful problem or opportunity and design, develop, test, and present a technology-based solution. Capstone projects may incorporate procedural generation, databases and data analysis, machine learning and artificial intelligence, cybersecurity, or other areas of student interest. Students are expected to document their process, evaluate their solutions, communicate their work, and reflect on the challenges and decisions involved in developing their projects. At the same time students learn web development skills for both front and back end development, database management, and the basic principles of machine learning.
             </p>
 
-            <h2 class="discrete" onclick="dis()"><u>Honors Discrete math and Cybersecurity</u></h2>
+            <h2 class="discrete" id="disL" onclick="dis()"><u>Honors Discrete math and Cybersecurity</u></h2>
             <p>
                 Seniors take a course on Discrete Math and Cybersecurity. Discrete mathematics provides students with mathematical foundations relevant to computer science, including logic, sets, functions, combinatorics, graph theory, probability, and algorithmic reasoning. Students also explore cybersecurity principles and practices.
             </p>
         </div>
 
-        <h1>Extracurricular Opportunities</h1>
+        <h1 id="Extraref">Extracurricular Opportunities</h1>
 
         <h2>Robotics</h2>
         <p>
