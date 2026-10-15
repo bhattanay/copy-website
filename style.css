@@ -1,0 +1,129 @@
+/*the blue background color is is rgb val[28, 69, 135]*/
+
+body {
+    background-color: rgb(28, 69, 135);
+    color: white;
+}
+
+.colleges {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: auto auto;
+}
+
+.college {
+    grid-column: span 1;
+    grid-row: span 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    img {
+        width: 60px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 7px;
+    }
+}
+
+
+.csp {
+    color: white;
+    text-underline-color: white;
+    cursor: pointer;
+}
+
+#hambut {
+    scale: 130%;
+    color: white;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    border: white solid 1px;
+    padding-left: 4px;
+    padding-right: 4px;
+    cursor: pointer;
+    p {
+        margin: 0;
+    }
+}
+
+.csa {
+    color: white;
+    text-underline-color: white;
+    cursor: pointer;
+}
+
+.dsa {
+    color: white;
+    text-underline-color: white;
+    cursor: pointer;
+}
+
+.capstone {
+    color: white;
+    text-underline-color: white;
+    cursor: pointer;
+}
+
+.discrete {
+    color: white;
+    text-underline-color: white;
+    cursor: pointer;
+}
+
+.apimg {
+    max-width: 80px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.cimg {
+    align-content: center;
+    display: flex;
+    max-width: 500px
+}
+
+.arrF {
+    color: rgb(28, 69, 135);
+    cursor: pointer;
+    background-color: gold;
+    border: 1px solid gold;
+}
+
+.arrB {
+    color: rgb(28, 69, 135);
+    cursor: pointer;
+    background-color: gold;
+    border: 1px solid gold;
+}
+
+.caro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.csaimg {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.cspimg {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.programs {
+    img {
+        margin-left: auto;
+        align-items: center;
+        display: flex;
+    }
+}
