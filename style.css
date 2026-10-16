@@ -121,8 +121,8 @@ body {
 
 .sideBar {
     width: 16%;
-    position: sticky;
-    top: 0;
+    position: fixed;
+    top: 0px;
     min-width: 320px;
     height: 100vh;
     display: flex;
@@ -245,4 +245,8 @@ body {
     flex-direction: column;
     text-align: center;
     padding: 10%
+}
+
+#sdBar {
+    display: flex;
 }

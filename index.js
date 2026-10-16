@@ -19,11 +19,11 @@ function dis() {
 }
 
 function cspimg() {
-    window.open("https://apcentral.collegeboard.org/courses/ap-computer-science-principles", "_blank");
+    window.open("https://apstudents.collegeboard.org/courses/ap-computer-science-principles", "_blank");
 }
 
 function csaimg() {
-    window.open("https://apcentral.collegeboard.org/courses/ap-computer-science-a", "_blank");
+    window.open("https://apstudents.collegeboard.org/courses/ap-computer-science-a", "_blank");
 }
 
 const imgs = ["https://i.ytimg.com/vi/CxGSnA-RTsA/hqdefault.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC419YNLNoMlVD9UEzQbpVPLFnxwy7xSdbrMFJ4holrAcQeIO_OUa7HCfD&s=10", "https://wp-media.petersons.com/blog/wp-content/uploads/2018/01/26100309/blur-close-up-code-computer-546819.jpg"]
@@ -67,7 +67,18 @@ function courseReloc() {
     }
 }
 
-function reloc(id) {
-    window.location.href = id
+function hambutClick() {
+    if (document.getElementById("sdBar").style.display === "flex") {
+        document.getElementById("sdBar").style.display = "none";
+        document.getElementById("main").style.paddingLeft = "0%"
+        document.getElementById("hambut").style.color = "white";
+        document.getElementById("hambut").style.borderColor = "white";
+    } else {
+        document.getElementById("sdBar").style.display = "flex";
+        document.getElementById("main").style.paddingLeft = "18%"
+        document.getElementById("hambut").style.color = "black";
+        document.getElementById("hambut").style.borderColor = "black";
+    }
+
 }
 
